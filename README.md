@@ -30,6 +30,7 @@ Strengths:
 Weaknesses:
 - Assumes normal distribution.
 - Sensitive to parameter choices (window size).
+
 ![image alt](https://github.com/GouthamiKethavath09/Anomaly-Detection-in-Real-Time-Data-Streams/blob/main/Moving%20Z-score.jpg?raw=true)
 
 ## 2. Exponential Smoothing (ES) 
@@ -41,6 +42,7 @@ Strengths:
 Weaknesses:
 - Assumes stationary data. 
 - Sensitive to parameter choices (smoothing factor).
+
 ![image alt](https://github.com/GouthamiKethavath09/Anomaly-Detection-in-Real-Time-Data-Streams/blob/main/Exponential%20smoothing.jpg?raw=true)
 
 ## 3. Isolation Forest (IF) 
@@ -53,6 +55,7 @@ Strengths:
 Weaknesses:
 - Computationally expensive.
 - Requires careful hyperparameter tuning.
+
 ![image alt](https://github.com/GouthamiKethavath09/Anomaly-Detection-in-Real-Time-Data-Streams/blob/main/isolation%20Forest.jpg?raw=true)
 ## 4. Autoencoder (AE) 
 Algorithm: Train a neural network to reconstruct input data, then detect 
@@ -64,6 +67,7 @@ Strengths:
 Weaknesses:
 - Requires large amounts of training data.
 - Sensitive to hyperparameter choices.
+  
 ![image alt](https://github.com/GouthamiKethavath09/Anomaly-Detection-in-Real-Time-Data-Streams/blob/main/AutoEncoder.jpg?raw=true)
 ## Requirements: 
 1. NumPy (1.21.5) 
