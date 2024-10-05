@@ -24,10 +24,10 @@ both the data stream and any detected anomalies.
 ## 1. Moving Z-Score 
 Algorithm: Calculate the moving average and standard deviation of the data 
 stream, then use the Z-score to identify anomalies. 
-Strengths: 
+#### Strengths: 
 - Simple to implement. 
 - Adapts to changing mean and variance. 
-Weaknesses:
+#### Weaknesses:
 - Assumes normal distribution.
 - Sensitive to parameter choices (window size).
 
@@ -36,10 +36,10 @@ Weaknesses:
 ## 2. Exponential Smoothing (ES) 
 Algorithm: Use ES to forecast future values, then detect anomalies based on 
 residuals.  
-Strengths: 
+#### Strengths: 
 - Handles seasonality and trend.
 - Robust to outliers. 
-Weaknesses:
+#### Weaknesses:
 - Assumes stationary data. 
 - Sensitive to parameter choices (smoothing factor).
 
@@ -48,11 +48,11 @@ Weaknesses:
 ## 3. Isolation Forest (IF) 
 Algorithm: Train an ensemble of decision trees to isolate anomalies instead of 
 profiling normal data. 
-Strengths: 
+#### Strengths: 
 - Handles high-dimensional data.
 - Robust to outliers.
 - No assumption about data distribution. 
-Weaknesses:
+#### Weaknesses:
 - Computationally expensive.
 - Requires careful hyperparameter tuning.
 
@@ -60,11 +60,11 @@ Weaknesses:
 ## 4. Autoencoder (AE) 
 Algorithm: Train a neural network to reconstruct input data, then detect 
 anomalies based on reconstruction error. 
-Strengths: 
+#### Strengths: 
 - Handles non-linear relationships.
 - Robust to noise.
 - No assumption about data distribution. 
-Weaknesses:
+#### Weaknesses:
 - Requires large amounts of training data.
 - Sensitive to hyperparameter choices.
   
